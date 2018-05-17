@@ -1,8 +1,8 @@
 module.exports = {
   mail: {
-    mailList: ['jamesohn247@gmail.com'],
+    mailList: [], //Send to mailAddr
     mailOpt: {
-      from: 'mmok05289@gmail.com',
+      from: '', //Sender mailAddr
       to: '',
       subject: '',
       html: '',
@@ -15,8 +15,8 @@ module.exports = {
           rejectUnauthorize:false
       },
       auth:{
-          user:'mmok05289@gmail.com',
-          pass:'aorqnr9800'
+          user:'',  //Sender mailAddr
+          pass:'' //Sender mail PW
       },
       maxConnections:5,
       maxMessages:10
@@ -33,7 +33,7 @@ module.exports = {
       },
       headers: {
         contentType: 'application/json',
-        Authorization: 'Bearer xoxp-325461250018-325778363764-364761217040-2a246587ecbc56bf135c2572a7f0c5b0',
+        Authorization: '',
       },
       json: true,
     }
