@@ -23,11 +23,11 @@ module.exports = {
     }
   },
   slack: {
-    directMessageList: ['U9KNWAPNG','U9KH344SH','U9MJW2VBK','U9N2USF6F'],
-    channelList: [],
+    directMessageList: [],
+    channelList: ['#error_report'],
     slackOpt: {
       method: 'POST',
-      uri: 'https://slack.com/api/chat.postMessage', // Default: Incoming WebHooks Direct message to james https://hooks.slack.com/services/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
+      uri: 'https://slack.com/api/chat.postMessage',
       formData: {
         // text: 'assign error detail'
       },
