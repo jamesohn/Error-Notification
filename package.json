@@ -1,0 +1,24 @@
+{
+  "name": "error-mailing",
+  "version": "1.0.0",
+  "description": "Error Mailing Code for Crawling Data",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/taebbong/error-mailing"
+  },
+  "author": "Kwon Tae Hyung @ TaeBbong",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.30.0",
+    "nodemailer": "^4.6.4",
+    "nodemailer-smtp-pool": "^2.8.3",
+    "request-promise": "^4.2.2"
+  }
+}
